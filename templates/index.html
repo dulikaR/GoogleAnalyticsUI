@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+   <title>Review Extractor</title>
+   <!--<link rel="stylesheet" href="static/style.css">-->
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body background="static/pics/abc1.jpg">
+
+
+<div class="container">
+  <h2>Inline form with .sr-only class</h2>
+  <p>Make the viewport larger than 768px wide to see that all of the form elements are inline, left aligned, and the labels are alongside.</p>
+  <form class="form-inline" action="http://127.0.0.1:5001/upload" method="post" name="ganalytics" id="ganalytics">
+
+    <div class="form-group">
+      <label class="sr-only" for="email">Email:</label>
+      <input type="email" class="form-control" style="width:500px;" id="email" placeholder="Enter email"  name="email">
+    </div>
+
+
+	   <div class="form-group">
+        <label for="start-time">From:</label>
+        <input type="datetime-local" id="start-time"
+               name="starttime"
+               />
+    </div>
+
+	   <div class="form-group">
+        <label for="end-time">To:</label>
+        <input type="datetime-local" id="end-time"
+               name="endtime"
+               />
+    </div>
+
+	   <div class="form-group">
+     <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+
+
+    <!--<div class="checkbox">-->
+      <!--<label><input type="checkbox" name="remember"> Remember me</label>-->
+    <!--</div>-->
+<br>
+<br>
+
+	  <div class="panel-group">
+
+  <div class="form-group">
+      <label for="comment">Dimentions:</label>
+      <textarea class="form-control" rows="5" style="width: 800px;" name="Dimentions" id="Dimentions"></textarea>
+    </div>
+
+        <br><br>
+
+      <div class="form-group">
+      <label for="comment">Metrics___:</label>
+      <textarea class="form-control" rows="5" style="width: 800px;" name="Metrics" id="Metrics"></textarea>
+    </div>
+
+        <br> <br>
+
+
+		    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse30">Collapsible panel</a>
+      </h4>
+    </div>
+    <div id="collapse30" class="panel-collapse collapse">
+      <div class="panel-body">
+         <div class="col-xs-6 col-sm-6">
+             <p>ga:userType</p>
+              <p>ga:sessionCount</p>
+              <p>ga:daysSinceLastSession</p>
+              <p>ga:userDefinedValue</p>
+              <p>ga:userBucket</p>
+         </div>
+
+         <div class="col-xs-6 col-sm-6">
+              <p>ga:users</p>
+              <p>ga:newUsers</p>
+              <p>ga:percentNewSessions</p>
+              <p>ga:1dayUsers</p>
+              <p>ga:7dayUsers</p>
+              <p>ga:14dayUsers</p>
+              <p>ga:28dayUsers</p>
+              <p>ga:30dayUsers</p>
+             <p>ga:sessionsPerUser</p>
+         </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+  </form>
+</div>
+
+
+
+
+</body>
+
+
+</html>
