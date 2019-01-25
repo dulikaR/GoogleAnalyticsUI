@@ -1,5 +1,4 @@
-# GoogleAnalyticsUI
-Google Analytics UI
+### GoogleAnalyticsUI
 
 # Introduction 
 The Google Analytics Reporting API v4 is the most advanced programmatic method to access report data in Google Analytics. With the Google Analytics Reporting API, you can: 
