@@ -9,10 +9,10 @@ The Google Analytics Reporting API v4 is the most advanced programmatic method t
  
 # Features 
 Google Analytics is built upon a powerful data reporting infrastructure. The Google Analytics Reporting API v4 gives you access to the power of the Google Analytics platform. The API provides these key features: 
-• Metric expressions - The API allows you to request not only built-in metrics but also combination of metrics expressed in mathematical operations. For example, you can use the expression ga:goal1completions/ga:sessionsto request the goal completions per number of sessions. 
-• Multiple date ranges - The API allows you in a single request to get data in two date ranges. 
-• Cohorts and Lifetime value - The API has a rich vocabulary to request Cohort and Lifetime value reports. 
-• Multiple segments - The API enables you to get multiple segments in a single request. 
+  - Metric expressions - The API allows you to request not only built-in metrics but also combination of metrics expressed in mathematical operations. For example, you can use the expression ga:goal1completions/ga:sessionsto request the goal completions per number of sessions. 
+  - Multiple date ranges - The API allows you in a single request to get data in two date ranges. 
+  - Cohorts and Lifetime value - The API has a rich vocabulary to request Cohort and Lifetime value reports. 
+  - Multiple segments - The API enables you to get multiple segments in a single request. 
  
  
 # Importance 
