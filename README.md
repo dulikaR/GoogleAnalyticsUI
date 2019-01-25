@@ -1,12 +1,12 @@
-### GoogleAnalyticsUI
+# GoogleAnalyticsUI
 
-# Introduction 
+### Introduction 
 The Google Analytics Reporting API v4 is the most advanced programmatic method to access report data in Google Analytics. With the Google Analytics Reporting API, you can: 
 • Build custom dashboards to display Google Analytics data. 
 • Automate complex reporting tasks to save time.
 • Integrate your Google Analytics data with other business applications. 
  
-# Features 
+### Features 
 Google Analytics is built upon a powerful data reporting infrastructure. The Google Analytics Reporting API v4 gives you access to the power of the Google Analytics platform. The API provides these key features: 
   - Metric expressions - The API allows you to request not only built-in metrics but also combination of metrics expressed in mathematical operations. For example, you can use the expression ga:goal1completions/ga:sessionsto request the goal completions per number of sessions. 
   - Multiple date ranges - The API allows you in a single request to get data in two date ranges. 
@@ -14,7 +14,7 @@ Google Analytics is built upon a powerful data reporting infrastructure. The Goo
   - Multiple segments - The API enables you to get multiple segments in a single request. 
  
  
-# Importance 
+### Importance 
 • Can create custom dashboards  
 • Save custom data on database  
 • Download custom reports automatically in custom time ranges  
@@ -22,7 +22,7 @@ Google Analytics is built upon a powerful data reporting infrastructure. The Goo
 • Update dashboards consistently without human involvement  
  
  
-# Solution  
+### Solution  
 Custom built API to download Analytics reports both automatically & using GUI. According to custom requirements.  
  
 • Example One -:  
